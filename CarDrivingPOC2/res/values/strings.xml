@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check your driving</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Check your Driving ...</string>
+     <string name="current_trip">Current Trip </string>
+    <string name="experience_trip">Driving Experience</string>
+    <string name="distance_travelled">Distance Travelled </string>
+    <string name="speed">Average Speed </string>
+    <string name="route">Route of Driving </string>
+    <string name="distance_travelled_history">Travelled History </string>
+    <string name="speed_history">Speed History </string>
+</resources>

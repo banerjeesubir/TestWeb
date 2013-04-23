@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+    
+<EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="                     Check My Drive"
+            android:textAlignment="center"
+            android:background="#87CEEB"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF" />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" 
+        android:layout_marginTop="35dp"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Score = "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="9.5"
+            android:textColor="#FFFFFF" />
+   
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="15dp"
+            
+            android:gravity="left"
+            android:onClick="eventStart"
+            android:textColor="#FF8C00"
+            android:text="Start" />
+     
+    </LinearLayout>
+    
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/button3"
+              android:layout_width="fill_parent"
+              android:layout_height="48dp"
+              android:layout_marginBottom="20dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="100dp"
+              android:background="@drawable/blackbutton"
+              android:onClick="eventCurrentTrip"
+              android:text="       Current Trip                              >>"
+              android:textColor="#FF8C00"
+              android:textSize="15sp" />
+
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="fill_parent"
+              android:layout_height="48dp"
+              android:layout_marginBottom="20dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="0dp"
+              android:background="@drawable/blackbutton"
+              android:onClick="eventExperienceTillDate"
+              android:text="      Driving  History                         >>"
+              android:textColor="#FF8C00"
+              android:textSize="15sp" />
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="200dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_weight="0.19"
+              android:background="@drawable/map2" />
+      </LinearLayout>
+      
+</RelativeLayout>
